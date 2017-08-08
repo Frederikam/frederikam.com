@@ -1,0 +1,46 @@
+.Project
+    position: relative
+    margin: 16px 0 16px 0
+    .project-header
+        padding: 4px 8px 4px 8px
+        font-family: "Slabo 27px", sans-serif
+        font-size: 16px
+        h2
+            font-weight: normal
+            padding: 0
+            margin: 0
+    .project-desc
+        padding: 4px 8px 4px 8px
+.Project.java
+    background-color: #b16200
+    .project-header
+        background-color: #e17d00
+.Project.js
+    color: black
+    background-color: #f1e05a
+    .project-header
+        background-color: #d9ca51
+.Project.js
+    color: black
+    background-color: #f1e05a
+    .project-header
+        background-color: #d9ca51
+.Project.lua
+    color: black
+    background-color: white
+    .project-header
+        color: white
+        background-color: #0074bd
+
+.Project.unity
+    color: black
+    background-color: white
+    .project-header
+        color: white
+        background-color: #222c37
+@supports (display: grid)
+    @media screen and (min-width: 1150px)
+        .Project.left
+            left: -50px
+        .Project.right
+            left: 50px
